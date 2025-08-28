@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+.container {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+input.is-valid {
+  border-color: green;
+}
+
+input.is-invalid {
+  border-color: red;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  height: 14px;
+}
+
+.senha-container {
+  display: flex;
+  align-items: center;
+}
+
+.senha-container input {
+  flex: 1;
+}
+
+.senha-container button {
+  margin-left: 5px;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background: #28a745;
+  color: #fff;
+}
+
+button[type="reset"] {
+  background: #dc3545;
+  color: #fff;
+}
